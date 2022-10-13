@@ -7,7 +7,7 @@
 */
 
 window.addEventListener('load', async() => {
-    if(window.location.pathname.match(/forum\/t\/\d+\/newreply/)) {
+    if(window.location.pathname.match(/forum\/t\/\d+\/newreply/) || window.location.pathname === '/forum/roblox/newthread') {
         let button = document.createElement('a');
         button.classList.add('theme2');
         button.classList.add('button');
